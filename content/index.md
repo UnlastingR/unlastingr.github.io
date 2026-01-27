@@ -1,6 +1,6 @@
 ---
-title: Welcome to my blog
+title: 👋 你好，我是 UnlastingR
+enableToc: false
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+![[website-html-code-browser-view-printed-white-paper-closeup-view.jpg]]
