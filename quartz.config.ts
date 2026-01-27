@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "UnlastingR.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian", "public", "node_modules"],
+    ignorePatterns: ["private", "templates", ".obsidian",],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
