@@ -1,3 +1,35 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* 首页个人简介卡片样式 */
+.home-profile {
+  display: flex;         /* 开启弹性布局 */
+  align-items: center;   /* 垂直居中 */
+  gap: 2rem;            /* 图片和文字的间距 */
+  margin: 2rem 0;       /* 上下留白 */
+  
+  /* 图片样式 */
+  img {
+    width: 150px !important; /* 强制图片宽度 */
+    border-radius: 50%;      /* 圆形头像 */
+    object-fit: cover;
+    margin: 0 !important;    /* 去掉默认边距 */
+  }
+
+  /* 文字区域样式 */
+  .profile-content {
+    flex: 1;             /* 占满剩余空间 */
+    
+    h3 {
+      margin-top: 0;     /* 去掉标题顶部空隙 */
+    }
+  }
+}
+
+/* 📱 手机端适配：屏幕变窄时自动变成上下排列 */
+@media (max-width: 600px) {
+  .home-profile {
+    flex-direction: column; /* 垂直排列 */
+    text-align: center;     /* 文字居中 */
+  }
+}

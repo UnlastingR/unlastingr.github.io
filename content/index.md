@@ -3,12 +3,11 @@ title: 👋 你好，我是 UnlastingR
 enableToc: false
 ---
 
-<div style="display: flex; align-items: center; gap: 20px;">
-    <!-- 左边放图片，宽度限制为 200px，圆形头像风格 -->
-    <img src="https://github.com/UnlastingR.png" style="width: 150px; border-radius: 50%;" />
-    
+<div class="home-profile">
+	<img src="https://github.com/UnlastingR.png" alt="Avatar">
+	 
     <!-- 右边放文字 -->
-    <div>
+    <div class="profile-content">
         <h3>欢迎来到风自然的自留地</h3>
         <p>
             这里是我的数字花园 🌱。<br>
