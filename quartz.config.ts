@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "UnlastingR.github.io/my-blog",
+    baseUrl: "UnlastingR.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "public", "node_modules"],
     defaultDateType: "modified",
     theme: {
