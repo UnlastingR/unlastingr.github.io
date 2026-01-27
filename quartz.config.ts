@@ -23,15 +23,14 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian", "public", "node_modules"],
     
     defaultDateType: "modified",
-    theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        // ✒️ 修改 3：使用谷歌的中文字体
-        // 标题用宋体 (Serif) 更有文学感，正文用黑体 (Sans) 易读
-        header: "Noto Serif SC", 
-        body: "Noto Sans SC",
-        code: "IBM Plex Mono",
+
+    theme: {       
+      fontOrigin: "googleFonts",       
+      cdnCaching: true,       
+      typography: {         
+        header: "Schibsted Grotesk",         
+        body: "Source Sans Pro",         
+        code: "IBM Plex Mono",       
       },
       colors: {
         lightMode: {
